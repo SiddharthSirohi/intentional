@@ -1,0 +1,15 @@
+body {
+    width: 200px; /* Set a fixed width for the popup */
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  
+  h1 { /* Style for FocusBooster Text in popup */
+    font-size: large;
+    margin-bottom: 5px; /* Reduce spacing */
+  }
+
+  #settings-link {
+    font-size: small;
+  }

@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;  /* Overall page padding */
+  }
+  
+  #blocked-sites-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 10px; /* Consistent spacing between website entries */
+  }
+
+  #status {
+    margin-top: 20px; /* Add some top margin for visual separation */
+  }
+
+  #blocked-sites-container > div { /* Style each site entry */
+    display: flex;
+    align-items: center; /* Vertically align items within a row */
+    gap: 5px; /* Space between input fields and remove button */
+  }
+  
+  
+  #site-input {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; /* Items stacked vertically */
+    gap: 5px;
+  }
+  
+
+  #buttons-container {
+    display: flex;        /* Use flexbox for easy alignment */
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 10px;           /* Space between buttons */
+    margin-top: 20px;    /* Space above the buttons */
+  }
+  
+  
+  button {  /* General button styling */
+    padding: 8px 15px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px
+  }
+  
+  button:hover {
+    background-color: #45a049
+  }
+  
+  
+  
+  #blocked-sites-container input[type="text"] {
+      width: 200px;   /* Set a reasonable width */
+      padding: 5px;  /* Add some inner padding to the text fields */
+      border: 1px solid #ccc; /* Light gray border */
+      box-sizing: border-box; /* Include padding and border in element's total width and height */
+  
+  }
+  
+  #blocked-sites-container input[type="text"]:disabled {
+    background-color: #eee;  /* Light gray background */
+    color: #999;             /* Lighter gray text */
+  }

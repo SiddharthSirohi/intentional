@@ -1,0 +1,33 @@
+body {
+    background-color: #d2b48c; /* Tan background */
+    color: #51361b;      /* Dark brown text */
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Vertically center message */
+    align-items: center;      /* Horizontally center message */
+    height: 100vh;        /* Make page full viewport height */
+    margin: 0;              /* Remove default margins */
+    text-align: center;
+  }
+  
+  
+  #message-container {
+    padding: 20px;  /* Add padding around the message text */
+    font-size: 1.5em;
+    width: 33.33vw;
+    height: auto; /* Height will adjust automatically */
+  
+  
+  }
+  
+  
+  #footer { /* Styles the footer consistently */
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    font-size: small;
+  
+  
+  }
